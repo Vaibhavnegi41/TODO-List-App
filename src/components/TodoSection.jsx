@@ -20,7 +20,7 @@ const TodoSection=({openTheModal,todos,setTodos,theme})=>{
         }
     }
     return(
-        <div className={`min-h-[50%]  ${theme=="dark"?"bg-[#3F4F44]":"bg-[#C1CFA1]"} p-8 flex flex-col items-center gap-4`}>
+        <div className={`h-[77vh] ${theme=="dark"?"bg-[#3F4F44]":"bg-[#C1CFA1]"} p-8 flex flex-col items-center gap-4`}>
 
             <h2 className={`text-center  ${theme=="dark"?"text-white":"text-black"} text-2xl font-semibold`}>TODO</h2>
 
